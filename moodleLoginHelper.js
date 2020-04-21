@@ -1,1 +1,1 @@
-javascript:(function(){document.getElementById('login_password').value='#';document.getElementById('login_username').value='#';document.getElementById('login').submit();})();
+javascript:(function(){username=document.getElementById('login_username');password=document.getElementById('login_password');if(!(username&&password)){username=document.getElementById('username');password=document.getElementById('password');username.value='#';document.getElementsByTagName('form')[0];password.value='#';}username.value='#';password.value='#';document.getElementById('login').submit();})();
