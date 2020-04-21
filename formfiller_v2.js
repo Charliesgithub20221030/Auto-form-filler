@@ -1,0 +1,1 @@
+javascript:(function(){var l = document.getElementsByClassName('control-group').length;for (var i = 0; i < l; i++) {if (document.getElementsByClassName('control-group')[i].getElementsByTagName('input')[0]) {document.getElementsByClassName('control-group')[i].getElementsByTagName('input')[0].checked = true;}}document.getElementsByTagName('form')[0].submit();})();
